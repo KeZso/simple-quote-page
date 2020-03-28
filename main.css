@@ -1,28 +1,49 @@
 body {
-  background: url(assets/freedom.jpg) no-repeat center center fixed;
+  background: url('assets/freedom.jpg') no-repeat center;
+  background-size: cover;
+  color: rgb(47,79,79);
+}
+#keret {
+  position: relative;
+  width: 85%;
+  height: calc(100vh - 20px);
+  margin: 10px auto;
   text-align: center;
-  color: rgba(47,79,79,.875);
-  font-family: "candara light", arial;
-  font-weight: 100;
-  margin: 5% 10% 0%;
 }
-h1 {
-  text-transform: uppercase;
+.nagy {
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 1.75rem;
-  text-shadow: 0 0 .5rem rgba(47,79,79,.75);
-  line-height: 2.25rem;
+  text-shadow: 0 0 .5rem rgba(47,79,79,.875);
+  line-height: 1.5;
   word-spacing: .5rem;
+  margin-bottom: 2rem;
 }
-h2 {
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  line-height: 1.75rem;
-  word-spacing: .5rem;
-  padding: 2rem 4rem;
-  text-shadow: 0 0 .125rem rgba(255,255,255,.875);
-}
-h3 {
+.kicsi {
+  font-family: 'Crimson Text', serif;
   font-size: 1.25rem;
+  text-shadow: 0 0 .05rem rgb(255,255,255); 
+}
+.dolt {
   font-style: italic;
-  text-shadow: 0 0 .125rem rgba(255,255,255,.875);
+}
+.lent {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+img {
+  width: 2.5rem;
+  margin: .5rem 1rem;  
+}
+.link:hover {
+  box-shadow:  0 0 .5rem rgb(0,191,255), 0 0 .25rem rgb(0,191,255);
+}
+#kitolt {
+  background-color: rgb(255,255,255,.375);
+  border: 1px solid rgb(47,79,79);
+  border-radius: 25px;
+  width: 15rem;
+  margin: 0 auto;
+  padding: .5rem;
 }
